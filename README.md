@@ -4,7 +4,7 @@ The goal was to create a MMO Framework based on scripting systems, to develop th
 I'm still working on the project when I have time, but I want to let the sources online, and wanna make this project alive, by getting it open-source.
 The final goal of the project is to make an open-source, script-based (actually Full TCP and prediction) MMO framework.
 
-# WARNING: Some parts are really dirty, because of some debugs and other stuffs. Sorry if the code is not very clean, I will clean it by continuing the development.
+### WARNING: Some parts are really dirty, because of some debugs and other stuffs. Sorry if the code is not very clean, I will clean it by continuing the development.
 
 ### How to use
 #### Requirements
