@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="9">
+ <tileset firstgid="1" name="A1_Indoors" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A1_Indoors.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="A1_Outdoors" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A1_Outdoors.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="385" name="A2_HF1R_Indoors" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A2_HF1R_Indoors.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="577" name="A2_HF1R_Outdoors" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A2_HF1R_Outdoors.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="769" name="A3_HF1R_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A3_HF1R_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="897" name="A4_HF1R_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A4_HF1R_1.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="1137" name="A5_HF1R_Indoors_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A5_HF1R_Indoors_1.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1265" name="A5_HF1R_Indoors_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A5_HF1R_Indoors_2.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1393" name="A5_HF1R_Outdoors" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/A5_HF1R_Outdoors.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1521" name="B-E_HF1R_Dungeon_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Dungeon_1.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="player_spawn" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1777" name="B-E_HF1R_Dungeon_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Dungeon_2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2033" name="B-E_HF1R_Dungeon_3" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Dungeon_3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2289" name="B-E_HF1R_Exterior_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Exterior_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2545" name="B-E_HF1R_Exterior_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Exterior_2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2801" name="B-E_HF1R_Guard_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Guard_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3057" name="B-E_HF1R_Interiors_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3313" name="B-E_HF1R_Interiors_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3569" name="B-E_HF1R_Interiors_3" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3825" name="B-E_HF1R_Interiors_4" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_4.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4081" name="B-E_HF1R_Interiors_3" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4337" name="B-E_HF1R_Interiors_5" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Interiors_5.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4593" name="B-E_HF1R_Market_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Market_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4849" name="B-E_HF1R_Market_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Market_2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5105" name="B-E_HF1R_Outdoors_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5361" name="B-E_HF1R_Outdoors_2" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5617" name="B-E_HF1R_Outdoors_3" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5873" name="B-E_HF1R_Outdoors_4" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_4.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6129" name="B-E_HF1R_Outdoors_5" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_5.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6385" name="B-E_HF1R_Outdoors_6" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Outdoors_6.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6641" name="B-E_HF1R_Siege" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Siege.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6897" name="B-E_HF1R_Snow" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Snow.png" width="512" height="512"/>
+  <tile id="74">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="7153" name="B-E_HF1R_Tents_1" tilewidth="32" tileheight="32">
+  <image source="res/images/tiles/B-E_HF1R_Tents_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7409" name="$Monster_Dragon_Hammertail_Pose" tilewidth="32" tileheight="32">
+  <image source="res/images/monsters/Dragon Hammertail/$Monster_Dragon_Hammertail_Pose.png" width="1500" height="1600"/>
+  <tile id="801">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="802">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="803">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="848">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="849">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="850">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="851">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="894">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="895">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="896">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="897">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="898">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="939">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="940">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="941">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="942">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="943">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="944">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="945">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="946">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="947">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="983">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="984">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="985">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="986">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="987">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="988">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="989">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="990">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="991">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="992">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="993">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="994">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="995">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="996">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1029">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1030">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1034">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1035">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1036">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1037">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1038">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1075">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1076">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1080">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1081">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1082">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1083">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1084">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="back1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwDoPH+7VZoOQ4K9pKqqqqqqqqqqqrq8wN9/KUUECcAAA==
+  </data>
+ </layer>
+ <layer name="back2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Yx08UYRjH8VeNJNbYlV3Rl8RGs1ztXcFEvOpBvaqIsGC7aKJnuyeVjnqy/AOWo41iO1r+AdtFpep3Q0hwmP7OOwX5JZ8Elp3Z53nnnXdeVojRJDE9KSF6U/++VpQWohgl6Whq8pNJ1DrZUO8afl+LdQnqw23MrpuflDI2ZRGOz9Dr1kU/3T572ss59sXkOk+gjok+aznEcYc19JEXk7EJKwds+u1jjvUr3Dt+75nVhmNU5ns2UzjfVIXr6uaeqebvGdSg1uK9KvPdTXY7nFvXPeMUp7rCipdngZe5nwq5P7NnuFVU537ScoZez7ro9wjvqcBRj2PjZy0yrmd28zD73gu4iEu4rOnaBbEWOc3DOv5WjwY0RjgHcxU/+x7H38cDPAyhD9XnrlUeUftjPMFTkz7sntfZNbwcezz0r7r2DO5NjPdLG6+3owOdJue3e17vTw+c92AE89F4v3zg54/4hM8m9eh4XhvXIi+xWvu+cM6v+IbvmsbV6Z6wqm2BST2692F2cbonoqwtzOha48LOSN9fTZNCTMcMzMQszMYczMU85CKFNOYjTw4cq7LWBJ31UogN2IhN2Iwt2Ipt2I4d2IlSlGGXjKBQQ4xjWCHZs6ISx1CFamRQg1ocxwmcxCmclmFVOzyZHOrKGf76DSnETdxCHerRgEY0oRktaMVt3MFd6fx5VZrm3Dl6OG/SxzMpxHO8wEu8Qhva0YFOvMYbvMU7vJd6anTKFeq/imu4bujlpxTiF36jC93oQS/60I8/EPlCjMFYjMsPsfghaaL2ZrSg1dDHImpajCVYimUoQCGKUIwSLMcKrMSqgPrw8r/h4Ht/jA/ms4OMlz2Irv2K6nd+OuKnpjju5+JYk47Eaf8RRv63fp2ykPGQimNSmYAxLaDGwgTUmcQE/RzS8f2Lm8RpzY9TLUlLHPdFfjI6B0Z23K5zfwHP9epyECcAAA==
+  </data>
+ </layer>
+ <layer name="front1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VuQ3CUBQF0c/SAEtkRywZEBhogKUBlgYw9N8ABAwhkgMQEvaT5kiTOLpPNiIlRXTPUnpk789meUpzWuT1bKrSYkubOtRt0K5v9djepwENf7ij6r3904jtY5rQNPD7KNi+pBWtA9+xYfuWdrQPfMeB7Uc60TnwHRe2l3SlW+A71Hx1/xdIL36H0uf8vUiSJEmSJEmSFMsTZAvbMhAnAAA=
+  </data>
+ </layer>
+ <layer name="front2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+</map>

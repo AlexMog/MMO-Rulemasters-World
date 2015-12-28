@@ -1,0 +1,9 @@
+target/
+
+*.class
+bin/
+.settings/
+.classpath
+.project
+publicate/release/
+publicate/release.zip

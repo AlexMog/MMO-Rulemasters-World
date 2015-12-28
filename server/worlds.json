@@ -1,0 +1,10 @@
+[
+	{
+		"id": 0,
+		"name": "MainMap",
+		"serverFile": "test.tmx",
+		"clientFile": "test.tmx",
+		"scriptFile": null,
+		"gameMode": default
+	}
+]
