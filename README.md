@@ -8,6 +8,8 @@ The final goal of the project is to make an open-source, script-based (actually 
 
 ### How to use
 #### Requirements
+A complete guide can be found on the [wiki](https://github.com/AlexMog/MMO-Rulemasters-World/wiki/Compile-and-use-the-project)
+
 This project requires thoes to be installed on your system:
 - Java 7+
 - Maven (needs oracle java version for build, not openjdk)
